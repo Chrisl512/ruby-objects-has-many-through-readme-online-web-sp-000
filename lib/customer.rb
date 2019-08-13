@@ -6,7 +6,6 @@ class Customer
     @name = name
     @age = age
     @@all << self
-
   end
 
 end
