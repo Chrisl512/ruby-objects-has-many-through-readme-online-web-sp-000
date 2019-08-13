@@ -13,7 +13,7 @@ class Waiter
   end
 
   def meals
-    Meal.all.self
+    self.Meal.all
   end
 
   def self.all
