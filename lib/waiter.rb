@@ -14,7 +14,7 @@ class Waiter
 
   def meals
     Meal.all.select do |meal|
-      meal.self == waitwer
+      meal.self == waiter
     end
   end
 
