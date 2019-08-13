@@ -13,7 +13,7 @@ class Customer
   end
 
   def meals
-
+    Meal.all.select
   end
 
   def self.all
