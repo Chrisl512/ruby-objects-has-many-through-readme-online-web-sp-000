@@ -13,7 +13,6 @@ class Waiter
   end
 
   def meals
-
     Meal.all
   end
 
